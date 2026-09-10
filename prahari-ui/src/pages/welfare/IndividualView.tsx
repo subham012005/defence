@@ -11,7 +11,7 @@ const IndividualView: React.FC = () => {
   const { personnel, riskAssessments, logAudit, currentWeek, interventions, grantLeave } = useDemo();
   const navigate = useNavigate();
 
-  const [hasAccess, setHasAccess] = useState(false);
+  const [, setHasAccess] = useState(false);
   const [reason, setReason] = useState('');
   const [show428, setShow428] = useState(true);
   const [exportError, setExportError] = useState(false);

@@ -2,7 +2,7 @@ import React from 'react';
 import { useDemo } from '../store/DemoContext';
 import type { Role } from '../types';
 import { Link, Outlet, useLocation, useNavigate } from 'react-router-dom';
-import { Shield, LayoutDashboard, Users, HeartPulse, FileText, Settings, UserCircle, LogOut } from 'lucide-react';
+import { Shield, LayoutDashboard, Users, HeartPulse, FileText, Settings, UserCircle } from 'lucide-react';
 
 export const Layout: React.FC = () => {
   const { role, setRole } = useDemo();

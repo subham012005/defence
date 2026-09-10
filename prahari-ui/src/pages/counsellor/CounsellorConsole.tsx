@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from '../../components/ui/Card';
+import { Card, CardContent } from '../../components/ui/Card';
 import { useDemo } from '../../store/DemoContext';
 import { ShieldAlert, MessageCircle, FileText } from 'lucide-react';
 import { Button } from '../../components/ui/Button';

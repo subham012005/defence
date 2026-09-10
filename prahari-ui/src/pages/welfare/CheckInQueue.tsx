@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardContent } from '../../components/ui/Card';
+import { Card } from '../../components/ui/Card';
 import { useDemo } from '../../store/DemoContext';
 import { Badge } from '../../components/ui/Badge';
 import { Button } from '../../components/ui/Button';
